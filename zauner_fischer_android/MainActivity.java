@@ -74,4 +74,6 @@ public class DayCalc {
                 throw new Exception("wrong month: " + month);
         }
     }
+
+    public void thisIsANewMethod() {}
 }
