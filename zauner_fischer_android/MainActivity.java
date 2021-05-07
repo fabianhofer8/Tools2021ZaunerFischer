@@ -85,7 +85,8 @@ public class DayCalc {
     }
 
     public void thisIsANewMethod() {
-        double x = 3 / 2;
+        // 3 is the wrong number here
+        double x = 5 / 2;
         String even_cooler = "Tobias was here";
     }
 }
