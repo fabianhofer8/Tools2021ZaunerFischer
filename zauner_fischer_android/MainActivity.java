@@ -35,6 +35,9 @@ public class DayCalc {
         int diffStart = calcDays(dayStart, monthStart, yearStart);
         int diffEnd = calcDays(dayEnd, monthEnd, yearEnd);
         System.out.println(Math.abs(diffEnd - diffStart));
+        // Hi
+        // LoC
+        // blabla
         String cool = "Michael was here";
         in.close();
     }
@@ -54,6 +57,10 @@ public class DayCalc {
 
         if (year % 4 == 0 && !(year % 100 == 0 && year % 400 != 0)) {
             sumDayInMonth++;
+        }
+
+        if(true){
+            String uncool = "that's a not cool";
         }
 
 
