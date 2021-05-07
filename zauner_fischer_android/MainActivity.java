@@ -77,5 +77,7 @@ public class DayCalc {
         }
     }
 
-    public void thisIsANewMethod() {}
+    public void thisIsANewMethod() {
+        String even_cooler = "Tobias was here";
+    }
 }
