@@ -35,6 +35,7 @@ public class DayCalc {
         int diffStart = calcDays(dayStart, monthStart, yearStart);
         int diffEnd = calcDays(dayEnd, monthEnd, yearEnd);
         System.out.println(Math.abs(diffEnd - diffStart));
+        String cool = "Michael was here";
         in.close();
     }
 
@@ -54,6 +55,7 @@ public class DayCalc {
         if (year % 4 == 0 && !(year % 100 == 0 && year % 400 != 0)) {
             sumDayInMonth++;
         }
+
 
         return years * 365 + countGapYears + sumDayInMonth + day;
     }
