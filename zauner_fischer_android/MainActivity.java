@@ -5,6 +5,8 @@ public class DayCalc {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
 
+	System.out.println("Simon Puchner and Fabian Hofer were here");
+
         System.out.println("Startdatum:");
         System.out.println("===========");
 
